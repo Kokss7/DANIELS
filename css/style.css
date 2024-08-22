@@ -1,0 +1,570 @@
+/* header */
+header {
+    background-attachment: fixed;
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../imgs/bg.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.header-content {
+    color: white;
+}
+
+.header-content h5 {
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+header .header-content h1 .koks1::after {
+    content: "";
+    height: 2rem;
+    font-size: 4.4rem;
+    font-weight: 200;
+    animation: typing 5s infinite;
+    position: absolute;
+    transform: translateX(-50%);
+}
+
+@keyframes typing {
+    0% {
+        content: " D|";
+    }
+
+    2% {
+        content: " De|";
+    }
+
+    4% {
+        content: " Dev|";
+    }
+
+    6% {
+        content: " Deve|";
+    }
+
+    8% {
+        content: " Devel|";
+    }
+
+    10% {
+        content: " Develo|";
+    }
+
+    12% {
+        content: " Develop|";
+    }
+
+    14% {
+        content: " Develope|";
+    }
+
+    16% {
+        content: " Developer|";
+    }
+
+    18% {
+        content: " Develope|";
+    }
+
+    20% {
+        content: " Develop|";
+    }
+
+    22% {
+        content: " Develo|";
+    }
+
+    24% {
+        content: " Devel|";
+    }
+
+    26% {
+        content: " Deve|";
+    }
+
+    28% {
+        content: " Dev|";
+    }
+
+    30% {
+        content: " De|";
+    }
+
+    32% {
+        content: " D|";
+    }
+
+    34% {
+        content: " D|";
+    }
+
+    36% {
+        content: " De|";
+    }
+
+    38% {
+        content: " Des|";
+    }
+
+    40% {
+        content: " Desi|";
+    }
+
+    42% {
+        content: " Desig|";
+    }
+
+    44% {
+        content: " Design|";
+    }
+
+    46% {
+        content: " Designe|";
+    }
+
+    48% {
+        content: " Designer|";
+    }
+
+    50% {
+        content: " Designe|";
+    }
+
+    52% {
+        content: " Design|";
+    }
+
+    54% {
+        content: " Desig|";
+    }
+
+    56% {
+        content: " Desi|";
+    }
+
+    58% {
+        content: " Des|";
+    }
+
+    60% {
+        content: " Des|";
+    }
+
+    62% {
+        content: " De|";
+    }
+
+    64% {
+        content: " D|";
+    }
+
+    66% {
+        content: " la|";
+    }
+
+    68% {
+        content: " larr|";
+    }
+
+    70% {
+        content: " larry D|";
+    }
+
+    72% {
+        content: " larry Dan|";
+    }
+
+    74% {
+        content: " larry Danie|";
+    }
+
+    76% {
+        content: " larry Daniels|";
+    }
+
+    78% {
+        content: " larry Danie|";
+    }
+
+    80% {
+        content: " larry Dan|";
+    }
+
+    82% {
+        content: " larry D|";
+    }
+
+    84% {
+        content: " larry|";
+    }
+
+    86% {
+        content: " lar|";
+    }
+
+    88% {
+        content: " l|";
+    }
+
+    90% {
+        content: " |";
+    }
+
+    92% {
+        content: " |";
+    }
+
+    94% {
+        content: " |";
+    }
+
+    96% {
+        content: " |";
+    }
+
+    98% {
+        content: " |";
+    }
+
+    100% {
+        content: "|";
+    }
+}
+
+/* navbar */
+.navbar a {
+    color: white;
+    letter-spacing: 0.5px;
+}
+
+.navbar .koks0 {
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+/* about */
+#About .container .col-md-7 h3 {
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+
+#About .container .col-md-7 span {
+    color: #999;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+#About .container .col-md-7 p {
+    line-height: 1.6;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #748182;
+}
+
+#About .container .col-md-5 .image img {
+    margin-left: 120px;
+}
+
+#About .container .col-md-5 .image {
+    position: relative;
+}
+
+#About .container .col-md-5 .image::after {
+    content: "";
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    left: 90px;
+    bottom: -30px;
+    background-image: url(../imgs/dots.png);
+    background-repeat: repeat;
+    z-index: -1;
+}
+
+#About .container .col-md-7 .koks3:hover {
+    background-color: white;
+    color: black;
+}
+
+#About .container .col-md-7 .koks4:hover {
+    background-color: black;
+    color: white;
+}
+
+/* services */
+#Services h3 {
+    font-weight: 900;
+    font-size: 40px;
+    position: relative;
+}
+
+#Services h3::after {
+    content: "";
+    width: 100%;
+    height: 30px;
+    background-image: url(../imgs/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    z-index: -1;
+}
+
+#Services .container .icon {
+    font-size: 25px;
+    margin-bottom: 20px;
+    width: 70px;
+    height: 70px;
+    background: #f4f4f4;
+    border-radius: 50%;
+    margin-left: 42%;
+    transition: 0.5s;
+}
+
+#Services .container h6 {
+    margin-bottom: 15px;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+#Services .container p {
+    word-spacing: 2px;
+    font-size: 14px;
+    color: #748182;
+}
+
+#Services .container .bg-white:hover .icon {
+    background-color: black;
+    color: white;
+}
+
+#Services .container .bg-white {
+    border-radius: 1.5%;
+}
+
+/* Portfolio */
+#Portfolio h3 {
+    font-weight: 900;
+    font-size: 40px;
+    position: relative;
+    display: inline-block;
+    z-index: 4;
+}
+
+#Portfolio h3::after {
+    content: "";
+    width: 100%;
+    height: 30px;
+    background-image: url(../img/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    z-index: -1;
+}
+
+#Portfolio .anchors {
+    margin-top: 5%;
+}
+
+#Portfolio .anchors a {
+    text-decoration: none;
+    color: #222;
+    font-weight: 700;
+    font-size: 16px;
+    margin: 0 15px;
+}
+
+#Portfolio .container .images {
+    margin-top: 10%;
+    position: relative;
+}
+
+#Portfolio .container .images .layer {
+    position: absolute;
+    background-color: whitesmoke;
+    width: 100%;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+#Portfolio .container .images .layer:hover {
+    opacity: 1;
+}
+
+#Portfolio .container .images .layer h6 {
+    margin-top: 35%;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+#Portfolio .container .images .layer .icon-layer a i {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: white;
+    border: 1px solid #111;
+    background-color: #111;
+    padding-top: 5px;
+}
+
+#Portfolio .container .images .layer .icon-layer a i:hover {
+    color: #111;
+    background-color: white;
+}
+
+/* testmonials */
+#Clients h3 {
+    font-weight: 900;
+    font-size: 40px;
+}
+
+#Clients .carousel-indicators [data-bs-target] {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #d6d6d6;
+    margin-top: 25px;
+    margin-right: 10px;
+}
+
+#Clients .carousel-indicators [data-bs-target]:hover {
+    background-color: #748182;
+}
+
+#Clients .carousel-item img {
+    width: 6%;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+#Clients .carousel-item .client p {
+    color: #748182;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+#Clients .carousel-item .client h6 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#Clients .carousel-item .client span {
+    font-size: 12px;
+    font-weight: 600;
+    color: #888;
+    margin-bottom: 30px;
+}
+
+/* records */
+.container .col-md-3 h3 {
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+
+.container .col-md-3 p {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #748182;
+}
+
+.container .col-md-3 .re-icon {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+/* team */
+#Team h3 {
+    font-weight: 900;
+    font-size: 40px;
+}
+
+#Team .container .card .text-card {
+    background-color: gray;
+}
+
+#Team .container .card .text-card h4 {
+    font-size: 25px;
+    color: white;
+    margin: 0 0 5px;
+}
+
+#Team .container .card .text-card h5 {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* contact */
+#Contact h3 {
+    font-weight: 900;
+    font-size: 40px
+}
+
+#Contact .container .item span {
+    padding: 15px;
+    font-size: 20px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    background-color: #f4f4f4;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+#Contact .container .item span i {
+    width: 2rem;
+    height: 2rem;
+}
+
+#Contact .container .item span:hover {
+    background-color: black;
+    color: white;
+}
+
+#Contact .container .item h6 {
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#Contact .container .item p {
+    line-height: 1.6;
+    font-size: 15px;
+    color: #748182;
+}
+
+#Contact .container .form-control {
+    background-color: #f4f4f4;
+}
+
+#Contact button {
+    margin-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    transition: 0.5s;
+}
+
+#Contact button:hover {
+    background-color: white;
+    color: black;
+}
+
+#Contact .container .row .col-md-5{
+    margin-left: 8%;
+}
+
+@media screen and (max-width: 767.20px) {
+    #Contact .container .row .col-md-5{
+        margin-left: 0;
+    }
+}
